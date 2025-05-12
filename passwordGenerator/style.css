@@ -1,0 +1,40 @@
+body {
+  background:rgb(102, 10, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+ 
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#copy-msg {
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}

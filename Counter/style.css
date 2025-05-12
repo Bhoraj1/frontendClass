@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: red;
+  padding: 30px;
+  border-radius: 8px;
+
+}
+color:white
+}h1{
+  
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+p {
+  font-size: 48px;
+  margin: 20px 0;
+  color:white
+}

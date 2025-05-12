@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Changer</title>
+    <style>
+      body {
+        text-align: center;
+        padding-top: 50px;
+      }
+      button {
+        margin: 10px;
+        padding: 8px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('blue')">Blue</button>
+
+    <script>
+      function changeColor(color) {
+        document.body.style.backgroundColor = color;
+      }
+    </script>
+  </body>
+</html>

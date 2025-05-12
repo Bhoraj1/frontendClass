@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Brews Café</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Blissful Brews</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Blissful Brews</h1>
+            <p>Where every sip tells a story</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Founded in 2010, Blissful Brews began as a small coffee cart in downtown. Our passion for quality coffee and warm hospitality quickly grew into this cozy café you see today.</p>
+                    <p>We source our beans directly from ethical farmers and roast them in-house to bring you the freshest flavors possible.</p>
+                    <p>Every cup is crafted with care by our skilled baristas who truly love what they do.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cafe interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="coffee">Coffee</button>
+                <button class="tab-btn" data-category="tea">Tea</button>
+                <button class="tab-btn" data-category="pastry">Pastries</button>
+            </div>
+            
+            <div class="menu-items">
+                <!-- Coffee items (default shown) -->
+                <div class="menu-category coffee show">
+                    <div class="menu-item">
+                        <h3>Espresso</h3>
+                        <p>Rich, concentrated coffee</p>
+                        <span>$3.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso with steamed milk foam</p>
+                        <span>$4.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Latte</h3>
+                        <p>Espresso with steamed milk</p>
+                        <span>$4.75</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Cold Brew</h3>
+                        <p>Smooth, cold-extracted coffee</p>
+                        <span>$4.00</span>
+                    </div>
+                </div>
+                
+                <!-- Tea items (hidden by default) -->
+                <div class="menu-category tea">
+                    <div class="menu-item">
+                        <h3>Earl Grey</h3>
+                        <p>Classic black tea with bergamot</p>
+                        <span>$3.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chamomile</h3>
+                        <p>Soothing herbal tea</p>
+                        <span>$3.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Matcha Latte</h3>
+                        <p>Green tea powder with milk</p>
+                        <span>$4.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chai</h3>
+                        <p>Spiced black tea with milk</p>
+                        <span>$4.00</span>
+                    </div>
+                </div>
+                
+                <!-- Pastry items (hidden by default) -->
+                <div class="menu-category pastry">
+                    <div class="menu-item">
+                        <h3>Croissant</h3>
+                        <p>Buttery, flaky pastry</p>
+                        <span>$3.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Blueberry Muffin</h3>
+                        <p>Fresh baked with blueberries</p>
+                        <span>$3.75</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Cinnamon Roll</h3>
+                        <p>Sweet with cream cheese icing</p>
+                        <span>$4.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Chocolate Chip Cookie</h3>
+                        <p>Classic cookie with melty chips</p>
+                        <span>$2.50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Coffee cup">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Cafe interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Barista making coffee">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Pastries">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Lane, Brew City</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> hello@blissfulbrews.com</p>
+                    <h3>Hours</h3>
+                    <p>Monday-Friday: 7am - 7pm</p>
+                    <p>Saturday-Sunday: 8am - 6pm</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2023 Blissful Brews Café. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

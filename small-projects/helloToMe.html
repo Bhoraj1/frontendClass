@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greeting Generator</title>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 50px;
+      }
+      input {
+        padding: 8px;
+        margin: 10px;
+      }
+      #greeting {
+        font-size: 1.5em;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <button onclick="sayHello()">Say hello to Me!</button>
+    <div id="greeting"></div>
+
+    <script>
+      function sayHello() {
+        const name = document.getElementById("name").value || "there";
+        document.getElementById("greeting").textContent = `Hello, ${name}!`;
+      }
+    </script>
+  </body>
+</html>
