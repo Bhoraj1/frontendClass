@@ -4,8 +4,10 @@
     <title>Digital Clock</title>
     <style>
       body {
+        background-image: url("https://media.istockphoto.com/id/2181735944/photo/natural-mountains-landscapes.jpg?s=612x612&w=0&k=20&c=4EZdF1438jegkW3U8h0TG4JaPO_cpMMBY-MouwLlyf4=");
+        background-repeat: no-repeat;
+        background-size: 100%;
         text-align: center;
-        font-family: Arial;
         margin-top: 50px;
       }
       #clock {
@@ -14,16 +16,17 @@
     </style>
   </head>
   <body>
-    <div id="clock"></div>
+    <p id="clock"></p>
 
     <script>
       function updateClock() {
         const now = new Date();
+
         document.getElementById("clock").textContent = now.toLocaleTimeString();
       }
 
       setInterval(updateClock, 1000);
-      updateClock(); 
+      updateClock();
     </script>
   </body>
 </html>
